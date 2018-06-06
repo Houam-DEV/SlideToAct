@@ -73,7 +73,7 @@ class SlideToActView(context: Context,
         }
 
     /** Typeface for the text field */
-    var typeFace = Typeface.NORMAL
+    var typeFace = Typeface.DEFAULT
         set(value) {
             field = value
             mTextPaint.typeface = Typeface.DEFAULT
